@@ -6,6 +6,8 @@ category: technology
 [EMMA](http://emma.sourceforge.net/)是一个Java代码测试覆盖率获取工具。尝试了一种使用EMMA获取Android测试覆盖率的方法，参考使用了
 [DynoDroid](http://www.cercs.gatech.edu/tech-reports/tr2012/git-cercs-12-09.pdf)提供的方法，其原理是使用插桩与`BroadcastReceiver`，使得插桩后打包签名而成的APK运行时每次操作均发送信息给`BroadcastReceiver`，`BroadcastReceiver`中负责将覆盖率信息写到SD卡的名为`coverage.ec`的文件中。其一大优点为全程无需修改原APK的源码。
 
+<!--break-->
+
 ## Pre ##
 假定APK所在包为`net.clasnake.project`，工程主目录为`/folder`。
 
