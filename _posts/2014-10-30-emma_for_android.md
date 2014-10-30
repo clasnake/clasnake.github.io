@@ -13,11 +13,10 @@ category: technology
 
 首先下载[EmmaInstrument.rar]({{site:url}}/assets/code/EmmaInstrument.rar)，解压后包含四个文件：
 
-
-- EmmaInsrumentation.java
-- FinishListener.java
-- InstrumentedActivity.java
-- SMSInstrumentedReceiver.java
+- `EmmaInsrumentation.java`
+- `FinishListener.java`
+- `InstrumentedActivity.java`
+- `SMSInstrumentedReceiver.java`
 
 将文件夹EmmaInstrument复制到/folder/src下。
 将上述四个java文件的包名修改为`net.clasnake.project.EmmaInstrument`，并令InstrumentActivity继承自项目的主Activity。
