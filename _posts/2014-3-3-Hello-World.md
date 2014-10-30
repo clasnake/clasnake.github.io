@@ -1,11 +1,8 @@
 ---
 layout: post
 title: You're up and running!
-category: 中文的尝试
 ---
 
-中文的尝试
-## 这是一段代码
     sudo apt-get
 ```cpp
 #include <stdio>

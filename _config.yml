@@ -23,7 +23,7 @@ footer-links:
   flickr: 
   github: clasnake
   instagram: 
-  linkedin: pub/haowen-zhu/56/218/248
+  linkedin: 
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: 
@@ -49,7 +49,8 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: kramdown
+markdown: rdiscount
+pygments: true
 highlighter: pygments
 permalink: /:title/
 
