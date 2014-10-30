@@ -19,8 +19,8 @@ category: technology
 - `SMSInstrumentedReceiver.java`
 
 将文件夹EmmaInstrument复制到/folder/src下。
-将上述四个java文件的包名修改为`net.clasnake.project.EmmaInstrument`，并令InstrumentActivity继承自项目的主Activity。
-然后修改AndroidManifest.xml，加入SMSInstrumentedReceiver、EmmaInstrumentationActivity：
+将上述四个java文件的包名修改为`net.clasnake.project.EmmaInstrument`，并令`InstrumentedActivity`继承自项目的主Activity。
+然后修改`AndroidManifest.xml`，加入`SMSInstrumentedReceiver`、`EmmaInstrumentationActivity`：
 
 ```xml
 <receiver android:name="net.clasnake.project.EmmaInstrument.SMSInstrumentedReceiver">
@@ -55,6 +55,7 @@ category: technology
 从设备中得到coverage.ec：`adb pull /mnt/sdcard/coverage.ec`
 
 从/folder/bin中得到coverage.em，该文件中包含了待测APP的结构信息，将其与coverage.ec放置同一目录下，然后生成覆盖率报告：
+
 `java -cp ~/adt/sdk/tools/lib/emma.jar emma report -r html -in coverage.em,coverage.ec`。
 
 在同目录下的coverage文件夹下生成覆盖率报告：
