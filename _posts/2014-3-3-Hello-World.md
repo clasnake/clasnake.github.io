@@ -11,5 +11,5 @@ def main():
     dtest();
 ```
 
-[EmmaInstrument.rar](http://{{site:url}}/assets/code/EmmaInstrument.rar)
+[EmmaInstrument.rar]({{site:url}}/assets/code/EmmaInstrument.rar)
 
