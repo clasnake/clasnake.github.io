@@ -60,7 +60,7 @@ category: technology
 
 在同目录下的coverage文件夹下生成覆盖率报告：
 
-![]({{site:url}}/assets/images/posts/2014-10-30-emma_for_android/emma.jpg)
+![]({{site:url}}/assets/images/posts/2014-10-30-emma_for_android/emma.JPG)
 
 ### 参考引用 ###
 
