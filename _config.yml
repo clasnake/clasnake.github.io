@@ -50,6 +50,7 @@ baseurl: ""
 #
 
 markdown: rdiscount
+input: GFM
 pygments: true
 highlighter: pygments
 permalink: /:title/
