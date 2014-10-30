@@ -1,8 +1,16 @@
 ---
 layout: post
 title: You're up and running!
+category: 中文的尝试
 ---
 
+中文的尝试
+## 这是一段代码
+    sudo apt-get
+```cpp
+#include <stdio>
+using namespace std;
+```
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
