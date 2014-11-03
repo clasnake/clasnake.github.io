@@ -64,7 +64,7 @@ category: technology
 
 ![]({{site:url}}/assets/images/posts/2014-10-30-emma_for_android/emma.JPG)
 
-### 参考引用 ###
+## 参考引用 ##
 
 - [EMMA](http://emma.sourceforge.net/)
 - [DynoDroid](http://www.cercs.gatech.edu/tech-reports/tr2012/git-cercs-12-09.pdf)
