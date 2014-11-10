@@ -10,4 +10,4 @@ category: technology
 
 修改`/etc/apt/sources.list`，将所有[http://archive.ubuntu.com/ubuntu](http://archive.ubuntu.com/ubuntu)替换为[http://old-releases.ubuntu.com/ubuntu](http://old-releases.ubuntu.com/ubuntu)即可。
 
-![]({{site:url}}/assets/images/posts/2014-10-31-ubuntu_old_version_source/sources.JPG)
+![]({{site:url}}/assets/images/posts/2014-10-31-ubuntu_old_version_source/sources.PNG)
