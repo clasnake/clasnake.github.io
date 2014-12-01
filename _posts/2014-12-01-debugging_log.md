@@ -48,7 +48,7 @@ actionSet.add(action2);
 改成
 
 ```java
-Set<IAction> actionSet = new HashSet<IAction>(XXXXSet)
+Set<IAction> actionSet = new HashSet<IAction>(XXXXSet);
 ```
 
 一切就好了。
