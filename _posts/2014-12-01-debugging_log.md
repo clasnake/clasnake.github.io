@@ -43,7 +43,7 @@ actionSet.add(action2);
 ...
 ```
 
-并没有对actionSet进行初始化，而是直接把XXXXSet赋值给了它，低级错误。。。而这个XXXXSet就是已经创建的某个状态的set，所以尽管这个函数的意图只是获取，却无意进行了修改，然后bug就来了。
+并没有对actionSet进行初始化，而是直接把XXXXSet赋值给了它，对actionSet的add实际上就是对XXXXSet的add。而这个XXXXSet就是已经创建的某个状态的set，所以尽管这个函数的意图只是获取，却无意进行了修改，然后bug就来了。
 
 改成
 
