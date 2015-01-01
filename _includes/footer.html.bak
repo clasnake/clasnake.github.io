@@ -12,5 +12,5 @@
   <p>  Copyright © {{ site.time | date: '%Y' }} - <a href="/">clasnake</a> - Powered by 
     <a href="http://jekyllrb.com/">Jekyll</a>.
     <a href="http://github.com/">Github</a>
-    - Themed by Hus
+    - Theme by HuS
   </p>
