@@ -2,6 +2,7 @@
 layout: post
 title: 实际项目中的算法
 category: technology
+tag: [Algorithm]
 ---
 
 和很多朋友一样，我对于算法的观点也经历了如下阶段：
@@ -23,7 +24,7 @@ category: technology
 # 抽象 #
 当时就觉得，这个问题抽象一下真的很时候用来当做面试的热身算法题。输入为一个对象序列，每个对象包含一个indent level（出于简化，可以认为indent level有一个最大值），要求给出对象的层次结构，复杂度为`O(n)`。例如一个序列S为`{A:1, B:2, C:3, B:2, D:3, E:2}`，则期望输出应该如下：
 
-```
+```python
 A
  --B
     --C

@@ -2,9 +2,10 @@
 layout: post
 title: 使用EMMA获取Android测试覆盖率
 category: technology
+tag: [Android]
 ---
 [EMMA](http://emma.sourceforge.net/)是一个Java代码测试覆盖率获取工具。尝试了一种使用EMMA获取Android测试覆盖率的方法，参考使用了
-[DynoDroid](http://www.cercs.gatech.edu/tech-reports/tr2012/git-cercs-12-09.pdf)提供的方法，其原理是使用插桩与`BroadcastReceiver`，使得插桩后打包签名而成的APK运行时每次操作均发送信息给`BroadcastReceiver`，`BroadcastReceiver`中负责将覆盖率信息写到SD卡的名为`coverage.ec`的文件中。其一大优点为全程无需修改原APK的源码。
+[DynoDroid](http://www.cercs.gatech.edu/tech-reports/tr2012/git-cercs-12-09.pdf)提供的方法，其原理是使用插桩与BroadcastReceiver，使得插桩后打包签名而成的APK运行时每次操作均发送信息给BroadcastReceiver，BroadcastReceiver中负责将覆盖率信息写到SD卡的名为`coverage.ec`的文件中。其一大优点为全程无需修改原APK的源码。
 
 <!--break-->
 
@@ -20,9 +21,9 @@ category: technology
 - `InstrumentedActivity.java`
 - `SMSInstrumentedReceiver.java`
 
-将文件夹EmmaInstrument复制到/folder/src下。
+将文件夹EmmaInstrument复制到`/folder/src`下。
 将上述四个java文件的包名修改为`net.clasnake.project.EmmaInstrument`，并令`InstrumentedActivity`继承自项目的主Activity。
-然后修改`AndroidManifest.xml`，加入`SMSInstrumentedReceiver`、`EmmaInstrumentationActivity`：
+然后修改`AndroidManifest.xml`，`加入SMSInstrumentedReceiver`、`EmmaInstrumentationActivity`：
 
 ```xml
 <receiver android:name="net.clasnake.project.EmmaInstrument.SMSInstrumentedReceiver">
@@ -41,7 +42,7 @@ category: technology
 ```
 ## Step 2 重编译、安装 ##
 
-连接设备至adb，首先`android update project`更新项目，生成build.xml，以便使用ant。
+连接设备至adb，首先`android update project`更新项目，生成`build.xml`，以便使用ant。
 
 然后编译插桩版本：`ant instrument`。
 
@@ -56,13 +57,13 @@ category: technology
 
 从设备中得到coverage.ec：`adb pull /mnt/sdcard/coverage.ec`
 
-从/folder/bin中得到coverage.em，该文件中包含了待测APP的结构信息，将其与coverage.ec放置同一目录下，然后生成覆盖率报告：
+从/folder/bin中得到`coverage.em`，该文件中包含了待测APP的结构信息，将其与`coverage.ec`放置同一目录下，然后生成覆盖率报告：
 
 `java -cp ~/adt/sdk/tools/lib/emma.jar emma report -r html -in coverage.em,coverage.ec`。
 
 在同目录下的coverage文件夹下生成覆盖率报告：
 
-![]({{site:url}}/assets/images/posts/2014-10-30-emma_for_android/emma.JPG)
+![drawing]({{site:url}}/assets/images/posts/2014-10-30-emma_for_android/emma.JPG)
 
 ## 参考引用 ##
 

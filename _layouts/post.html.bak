@@ -41,7 +41,7 @@ layout: default
 <div class="sub_pagination">
   
   {% if page.next %}
-    <a class="sub_pagination-item newer" href="{{page.next.url}}">{{page.next.title}}&nbsp<i class="fa fa-chain"></i></a>
+    <a class="sub_pagination-item newer" href="{{page.next.url}}">Previous&nbsp<i class="fa fa-chain"></i></a>
   {% else %}
     <a class="sub_pagination-item" id="lastest">Latest Now&nbsp<i class="fa fa-unlink"></i></a>
   {% endif %}

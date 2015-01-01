@@ -2,6 +2,7 @@
 layout: post
 title: 记一次调试
 category: technology
+tag: [Debug]
 ---
 
 方才用了大约1个半小时调了一个直观上很诡异的bug，最终原因是其实是一个很低级的错误（这种事情貌似经常发生。。。）。

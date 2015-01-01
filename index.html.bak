@@ -41,7 +41,7 @@ title: Home
   {% endif %}
 
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older Posts</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Previous Posts</a>
   {% else %}
     <span class="pagination-item older">Last Page</span>
   {% endif %}
