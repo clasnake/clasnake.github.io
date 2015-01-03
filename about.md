@@ -17,7 +17,11 @@ permalink: /about/
 ### 更多社交网络
 
 [Github](http://github.com/clasnake)
+
 [LinkedIn](http://www.linkedin.com/pub/haowen-zhu/56/218/248)
+
 [StackOverflow](http://stackoverflow.com/users/1745255/clasnake)
+
 [豆瓣](http://www.douban.com/people/arborzhu/)
+
 [微博](http://weibo.com/p/1005051500823240)
