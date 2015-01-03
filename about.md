@@ -14,13 +14,7 @@ permalink: /about/
 - 永远拥有童真
 - 向人类传播我能探知的一切
 
-### 更多社交网络
-
-[Github](http://github.com/clasnake)
-
-[LinkedIn](http://www.linkedin.com/pub/haowen-zhu/56/218/248)
-
-[StackOverflow](http://stackoverflow.com/users/1745255/clasnake)
+### 中文社交网络
 
 [豆瓣](http://www.douban.com/people/arborzhu/)
 
