@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记一次调试
-category: technology
+category: 技术
 tag: [Debug]
 ---
 

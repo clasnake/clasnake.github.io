@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 旧版本Ubuntu源更新
-category: technology
+category: 技术
 tag: [Linux]
 ---
 

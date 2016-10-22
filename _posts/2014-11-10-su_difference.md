@@ -1,7 +1,7 @@
 ---
 layout: post
 title: su 与 su - 异同
-category: technology
+category: 技术
 tags: [Linux]
 ---
 

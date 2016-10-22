@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 实际项目中的算法
-category: technology
+category: 技术
 tag: [Algorithm]
 ---
 

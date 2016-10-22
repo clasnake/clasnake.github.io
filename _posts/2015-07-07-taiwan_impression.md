@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 台湾印象
-category: life
+category: 生活
 tag: [印象]
 ---
 

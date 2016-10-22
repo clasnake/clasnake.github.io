@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用EMMA获取Android测试覆盖率
-category: technology
+category: 技术
 tag: [Android]
 ---
 [EMMA](http://emma.sourceforge.net/)是一个Java代码测试覆盖率获取工具。尝试了一种使用EMMA获取Android测试覆盖率的方法，参考使用了
